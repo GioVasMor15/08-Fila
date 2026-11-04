@@ -118,7 +118,7 @@ void remove()
 		return;
 	}
 	NO* aux = inicio;
-	cout << "elemento " << aux->valor << " Removido.\n";
+	cout << "Elemento " << aux->valor << " removido.\n";
 	inicio = inicio->prox;
 
 	if (inicio == NULL)
